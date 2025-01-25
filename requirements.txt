@@ -2,6 +2,6 @@ pandas>=2.0.0
 fastapi
 numpy
 pickle5
-sklearn
+scikit-learn
 os
 json
