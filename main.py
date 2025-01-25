@@ -9,7 +9,7 @@ app=FastAPI(
 )
 
 
-with open("/home/ravivarma/Downloads/preplaced/PROJECTS/Bankrupty/model.pkl","rb") as file:
+with open("model.pkl","rb") as file:
     model=pickle.load(file)
     
 @app.get("/")
