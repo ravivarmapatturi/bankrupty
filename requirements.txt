@@ -1,7 +1,7 @@
 pandas>=2.0.0
 fastapi
 numpy
-pickle
+pickle5
 sklearn
 os
 json
